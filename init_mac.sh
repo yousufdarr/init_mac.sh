@@ -21,7 +21,6 @@ log() {
 
 # Arrays of taps to add
 TAPS=(
-    "homebrew/bundle"
     "homebrew/core"
     "homebrew/cask"
     "mitchellh/ghostty"
