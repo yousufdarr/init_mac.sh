@@ -41,12 +41,13 @@ GUI_APPS=(
     "visual-studio-code"
     "readdle-spark"
     "ghostty"
+    "google-chrome"
 )
 
 # Fonts to install
 FONTS=(
-    "font-fira-code"
-    "font-jetbrains-mono"
+    # "font-fira-code"
+    # "font-jetbrains-mono"
 )
 
 # Check if running as root
@@ -202,7 +203,7 @@ main() {
     add_taps
     install_cli_tools
     install_gui_apps
-    install_fonts
+    # install_fonts
     configure_macos
     configure_gpg
     
