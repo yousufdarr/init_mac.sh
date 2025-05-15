@@ -21,11 +21,8 @@ log() {
 
 # Arrays of taps to add
 TAPS=(
-    "homebrew/core"
-    "homebrew/cask"
     "mitchellh/ghostty"
     "buo/cask-upgrade"
-    "homebrew/cask-fonts"
 )
 
 # Arrays of tools to install
