@@ -21,7 +21,6 @@ log() {
 
 # Arrays of taps to add
 TAPS=(
-    "mitchellh/ghostty"
     "buo/cask-upgrade"
 )
 
@@ -40,8 +39,8 @@ CLI_TOOLS=(
 
 GUI_APPS=(
     "visual-studio-code"
-    "ghostty"
     "readdle-spark"
+    "ghostty"
 )
 
 # Fonts to install
