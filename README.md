@@ -27,7 +27,7 @@ chmod +x initialise_mac.sh
 ./initialise_mac.sh
 ```
 
-### Direct Method (⚠️ Not Recommended)
+### ⚠️ Direct Method (Not Recommended)
 
 ```bash
 curl -fsSL https://your-domain.com/initialise_mac.sh | bash
