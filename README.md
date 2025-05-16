@@ -38,25 +38,25 @@ curl -fsSL https://your-domain.com/initialise_mac.sh | bash
 ## ✨ Features
 
 ### Package Management
-- Installs and configures Homebrew
+- Installs and configures [Homebrew](https://brew.sh/)
 - Configures tap:
-  - buo/cask-upgrade
+  - [buo/cask-upgrade](https://github.com/buo/homebrew-cask-upgrade)
 
 ### Development Tools
 - Essential CLI tools:
-  - git
-  - node
-  - zsh (with completions and syntax highlighting)
-  - mas (Mac App Store CLI)
-  - gh (GitHub CLI)
-  - gnupg
-  - pinentry-mac
+  - [git](https://git-scm.com/)
+  - [node](https://nodejs.org/)
+  - [zsh](https://www.zsh.org/) (with [completions](https://github.com/zsh-users/zsh-completions) and [syntax highlighting](https://github.com/zsh-users/zsh-syntax-highlighting))
+  - [mas](https://github.com/mas-cli/mas) (Mac App Store CLI)
+  - [gh](https://cli.github.com/) (GitHub CLI)
+  - [gnupg](https://gnupg.org/)
+  - [pinentry-mac](https://github.com/GPGTools/pinentry-mac)
 
 ### Applications
-- Visual Studio Code
-- Ghostty (terminal emulator)
-- Readdle Spark (email client)
-- Google Chrome
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Ghostty](https://ghostty.dev/) (terminal emulator)
+- [Readdle Spark](https://sparkmailapp.com/) (email client)
+- [Google Chrome](https://www.google.com/chrome/)
 
 ### Development Fonts
 TBD
