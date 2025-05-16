@@ -75,17 +75,40 @@ TBD
 - Configures GPG agent with sensible cache timeouts
 - Adds necessary environment variables to shell
 
-## 🔧 Post-Setup Tasks
+## �� Post-Setup Tasks
 
-After the script completes:
+### 1. GPG Key Generation
+
+After the script completes, you can set up your GPG key:
 
 ```bash
 # Generate a new GPG key
 gpg --full-generate-key
+# Use RSA and RSA, 4096 bits, and your GitHub email
 
-# List your GPG keys
+# List your key ID
 gpg --list-secret-keys --keyid-format=long
+
+# Configure Git
+git config --global user.signingkey YOUR_KEY_ID
+git config --global commit.gpgsign true
+
+# Export your public key for GitHub
+gpg --armor --export YOUR_KEY_ID
 ```
+
+Add to GitHub:
+1. Copy the exported GPG key
+2. Go to GitHub Settings → SSH and GPG keys
+3. Click "New GPG key"
+4. Paste your public key
+
+### 2. Shell Configuration
+
+The script configures Zsh with syntax highlighting. You may want to:
+- Choose a different theme
+- Add additional plugins
+- Customize your prompt
 
 ## 💻 Compatibility
 
