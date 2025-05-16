@@ -115,7 +115,7 @@ The script configures Zsh with syntax highlighting. You may want to:
 - Designed for macOS with Apple Silicon
 - Compatible with Intel Macs (automatically detects architecture)
 
-## ⚠️ Notes
+## 📝 Notes
 
 - Some changes require a system restart to take effect
 - The script is idempotent (safe to run multiple times)
