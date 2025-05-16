@@ -11,6 +11,8 @@ Before running this script, please:
 
 ## 🚀 Usage
 
+### Safe Method (Recommended)
+
 ```bash
 # Download the script
 curl -O https://your-domain.com/initialise_mac.sh
@@ -24,6 +26,14 @@ chmod +x initialise_mac.sh
 # Run the script
 ./initialise_mac.sh
 ```
+
+### Direct Method (⚠️ Not Recommended)
+
+```bash
+curl -fsSL https://your-domain.com/initialise_mac.sh | bash
+```
+
+**Warning:** The direct method bypasses script review and can be dangerous. Always prefer the safe method above.
 
 ## ✨ Features
 
